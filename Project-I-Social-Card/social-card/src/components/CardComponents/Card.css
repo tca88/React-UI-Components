@@ -1,9 +1,26 @@
 /* All styles for your Card Components live here */
 /* Card Styling */
 
+a.card-link {
+    text-decoration: none;
+}
+
+a.card-link:hover {
+    cursor: pointer;
+}
+
+a.card-link:focus {
+    outline: none;
+    border: none;
+}
+
+a.card-link:active {
+    outline: 0;
+}
 .banner-image {
     width: 700px;
     height: auto;
+    border-radius: 5px;
 }
 
 .card-content {
@@ -20,6 +37,7 @@ h2.card-title {
     font-weight: bold;
     margin: 1rem;
 }
+
 
 p.card-text {
     margin: 1rem;
