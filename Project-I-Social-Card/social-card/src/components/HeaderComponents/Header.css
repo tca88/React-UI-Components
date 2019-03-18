@@ -1,18 +1,29 @@
 /* All styles for your header Components live here */
 
-.header-container {
-    margin: 0 auto;
-    max-width: 800px;
-    display: flex;
-    margin-top: 1.5rem;
+.App {
     border: 1px solid black;
-    padding: .5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1.5rem;
+    margin: 2rem;
     align-items: flex-start;
 }
 
 .header-title {
     margin-top: .005rem;
     display: flex;
+    flex-wrap: wrap;
     margin-left: 1rem;
     margin-bottom: .5rem;
     align-items: center;
@@ -50,4 +61,10 @@ p.header-content {
     line-height: 1.4;
 }
 
+/* Card Styling */
 
+.banner-image {
+    width: 800px;
+    height: auto;
+    border: 1px solid red;
+}
