@@ -2,6 +2,52 @@
 
 .header-container {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 800px;
     display: flex;
+    margin-top: 1.5rem;
+    border: 1px solid black;
+    padding: .5rem;
+    align-items: flex-start;
 }
+
+.header-title {
+    margin-top: .005rem;
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    align-items: center;
+}
+
+.header-h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.header-handle {
+    font-size: 1rem;
+    color: #A0AAB5;
+    margin-left: 1rem;
+}
+
+.header-date {
+    font-size: 1rem;
+    color: #A0AAB5;
+    margin-left: .5rem;
+}
+
+.header-content {
+    margin-left: 1rem;
+}
+
+img.header-image {
+    height: 50px;
+    width: auto;
+    margin-left: .5rem;
+}
+
+p.header-content {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+
