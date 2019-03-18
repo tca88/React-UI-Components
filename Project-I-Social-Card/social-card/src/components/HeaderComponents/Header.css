@@ -1,1 +1,7 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+}
