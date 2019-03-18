@@ -27,7 +27,7 @@ a.card-link:active {
 .banner-image {
     width: 80%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-content {
@@ -37,7 +37,7 @@ a.card-link:active {
     font-size: 1.2rem;
     border: 1.5px solid rgb(230, 230, 230);
     width: 80%;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     color: #272A2E;
     margin-bottom: 2rem;
 }
