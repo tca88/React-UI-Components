@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import moment from "moment";
 import HeaderContent from './HeaderContent';
 import ImageThumbnail from './ImageThumbnail';
 import HeaderTitle from './HeaderTitle';
