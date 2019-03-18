@@ -1,6 +1,13 @@
 /* All styles for your Card Components live here */
 /* Card Styling */
 
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 a.card-link {
     text-decoration: none;
 }
@@ -18,29 +25,35 @@ a.card-link:active {
     outline: 0;
 }
 .banner-image {
-    width: 700px;
+    width: 80%;
     height: auto;
     border-radius: 5px;
 }
 
 .card-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-size: 1.2rem;
     border: 1.5px solid rgb(230, 230, 230);
-    width: 700px;
+    width: 80%;
     border-radius: 5px;
-    margin-top: -0.25rem;
     color: #272A2E;
     margin-bottom: 2rem;
 }
 
 h2.card-title {
     font-weight: bold;
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
 
 
 p.card-text {
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
 
 }
 

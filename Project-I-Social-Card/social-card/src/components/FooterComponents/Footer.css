@@ -1,9 +1,10 @@
 .footer-icons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    width: 400px;
-    margin-right: 22rem;
+    width: 80%;
+    margin-right: 30rem;
     margin-bottom: 1rem;
 }
 

@@ -4,8 +4,10 @@ import FooterIcons from './FooterIcons';
 
 const Footer = () => {
 
-return <FooterIcons />
-
+return (
+<div className="footer">
+    <FooterIcons />
+</div>);
 };
 
 export default Footer;
