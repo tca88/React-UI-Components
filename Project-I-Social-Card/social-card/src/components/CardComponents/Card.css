@@ -2,7 +2,31 @@
 /* Card Styling */
 
 .banner-image {
-    width: 800px;
+    width: 700px;
     height: auto;
-    border: 1px solid red;
+}
+
+.card-content {
+    font-size: 1.2rem;
+    border: 1.5px solid rgb(230, 230, 230);
+    width: 700px;
+    border-radius: 5px;
+    margin-top: -0.25rem;
+    color: #272A2E;
+    margin-bottom: 2rem;
+}
+
+h2.card-title {
+    font-weight: bold;
+    margin: 1rem;
+}
+
+p.card-text {
+    margin: 1rem;
+
+}
+
+p.card-url {
+    margin: 1rem;
+    color: #99A2AC;
 }
