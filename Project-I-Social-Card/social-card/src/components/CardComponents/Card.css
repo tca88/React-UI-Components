@@ -30,6 +30,10 @@ a.card-link:active {
     border-radius: 5px 5px 0 0;
 }
 
+.banner-image:hover {
+    cursor:pointer;
+}
+
 .card-content {
     display: flex;
     flex-direction: column;
@@ -40,6 +44,10 @@ a.card-link:active {
     border-radius: 0 0 5px 5px;
     color: #272A2E;
     margin-bottom: 2rem;
+}
+
+.card-content:hover {
+    cursor:pointer;
 }
 
 h2.card-title {
