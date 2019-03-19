@@ -1,6 +1,8 @@
 import React from 'react';
 import './Display.css';
 import NumberButton from '../ButtonComponents/NumberButton';
+import { ClearButton, ZeroButton } from '../ButtonComponents/ActionButton';
+import OperatorButton from '../ButtonComponents/OperatorButton';
 
 const calcButtons = {
     operators: ['÷', '×', '−', '+', '='],
@@ -14,8 +16,11 @@ const CalculatorDisplay = () => {
         <div className="claculator-display">
             <div className="all-buttons">
                 <div className="action-number-buttons">
+                <ClearButton action={calcButtons} />
                 <NumberButton num={calcButtons} />
+                <ZeroButton action={calcButtons} />
                 </div>
+                <OperatorButton operator={calcButtons} />
             </div>
         </div>
     );
