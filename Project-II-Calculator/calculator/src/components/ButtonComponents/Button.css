@@ -54,15 +54,19 @@
     align-items: flex-end;
 }
 
+.all-buttons:hover {
+    cursor: pointer;
+}
+
 .operator-item {
     display: flex;
     border-bottom: 2px solid #979797;
     width: 100px;
     height: 100px;
-    font-size: 2.5rem;
+    font-size: 4rem;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
+    font-weight: lighter;
     background: #A0001E;
     color: white;
 
