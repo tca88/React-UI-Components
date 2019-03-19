@@ -7,7 +7,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 const calcButtons = {
   operators: ['÷', '×', '−', '+', '='],
-  numbers: [7, 8, 9, 4, 5, 6, 1, 2, 3],
+  numbers: [7, 8, 9, 4, 5, 6, 1, 2, 3,],
   action1: 'clear',
   action2: 0,
 };
@@ -19,7 +19,13 @@ const App = () => {
             <div className="all-buttons">
                 <div className="action-number-buttons">
                 <ClearButton action={calcButtons} />
-                <NumberButton num={calcButtons} />
+                <div className="number-buttons">
+                  {calcButtons.numbers.map(number => (
+                  <NumberButton numberButtonStyle="number-item" key={number.toString()} text={number} />
+                  ))}
+                </div>
+                
+                {/* <NumberButton num={calcButtons} /> */}
                 <ZeroButton action={calcButtons} />
                 </div>
                 <OperatorButton operator={calcButtons} />
