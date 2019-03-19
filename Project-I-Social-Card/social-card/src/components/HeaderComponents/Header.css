@@ -1,1 +1,71 @@
 /* All styles for your header Components live here */
+
+.App {
+    border: 1px solid black;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1.5rem;
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    align-items: flex-start;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    margin-top: .005rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    align-items: center;
+}
+
+.header-h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #272A2E;
+}
+
+.header-handle {
+    font-size: 1rem;
+    color: #A0AAB5;
+    margin-left: 1rem;
+}
+
+.header-date {
+    font-size: 1rem;
+    color: #A0AAB5;
+    margin-left: .5rem;
+}
+
+.header-content {
+    margin-left: 1rem;
+    color: #272A2E;
+    width: 90%;
+}
+
+img.header-image {
+    height: 50px;
+    width: auto;
+    margin-left: .5rem;
+}
+
+p.header-content {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}

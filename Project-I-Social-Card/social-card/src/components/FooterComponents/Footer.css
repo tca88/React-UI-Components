@@ -1,0 +1,43 @@
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 55%;
+    margin-right: 40rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    height: 25px;
+    width: auto;
+}
+
+.refresh-content {
+    display:flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.refresh-content p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #B9BFC4;
+    margin-left: .5rem;
+}
+
+.like-content {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.like-content p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #B9BFC4;
+    margin-left: .5rem;
+
+}
